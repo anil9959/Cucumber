@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 140093500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefination.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1226400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User sign up with following details",
+            "match": {
+              "location": "stepDefination.user_sign_up_with_following_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "jenny",
+                  "abcd",
+                  "john@abcd.com",
+                  "Australia",
+                  "3242353"
+                ],
+                "line": 26
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1810000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 27,
+                "value": "#Then Home page is populated"
+              }
+            ],
+            "line": 28,
+            "name": "Cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

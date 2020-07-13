@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="1" parallel="tests" name="Failed suite [BDD Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="FREE CRM Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="cucumberOptions.TestRunner1">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- cucumberOptions.TestRunner1 -->
+    </classes>
+  </test> <!-- FREE CRM Test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

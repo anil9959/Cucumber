@@ -1,0 +1,228 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Flight Booking on chrome",
+        "description": "",
+        "id": "free-crm-login-feature;flight-booking-on-chrome",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12933018900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on Login Page \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefinition.user_already_on_login_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10341036900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicking on flight tab",
+            "match": {
+              "location": "LoginStepDefinition.clicking_on_flight_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30950388800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I entered source \"vijayawada\" and destination \"bangalore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vijayawada",
+                  "offset": 18
+                },
+                {
+                  "val": "bangalore",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginStepDefinition.i_entered_source_and_destination(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6900367700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on search button",
+            "match": {
+              "location": "LoginStepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17387554900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "flights should be displayed and Book Cheapest Flight",
+            "match": {
+              "location": "LoginStepDefinition.flights_should_be_displayed_and_Book_Cheapest_Flight()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1173875200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testng"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Flight Booking on firefox",
+        "description": "",
+        "id": "free-crm-login-feature;flight-booking-on-firefox",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14626602100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is already on Login Page \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefinition.user_already_on_login_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10586648700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicking on flight tab",
+            "match": {
+              "location": "LoginStepDefinition.clicking_on_flight_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31458624900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I entered source \"Delhi\" and destination \"Mumbai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi",
+                  "offset": 18
+                },
+                {
+                  "val": "Mumbai",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginStepDefinition.i_entered_source_and_destination(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6634613800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on search button",
+            "match": {
+              "location": "LoginStepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17712929300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "flights should be displayed and Book Cheapest Flight",
+            "match": {
+              "location": "LoginStepDefinition.flights_should_be_displayed_and_Book_Cheapest_Flight()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2330427900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testng"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Testing.feature",
+    "tags": [
+      {
+        "name": "@testng",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
