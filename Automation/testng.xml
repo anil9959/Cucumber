@@ -4,7 +4,7 @@
 	<test name="FREE CRM Test" annotations="JDK" preserve-order="true">
 	
 		<classes>
-			<class name="cucumberOptions.TestRunner1" />
+			<class name="cucumberOptions.TestRunner" />
 		</classes>
 	</test>
 </suite>
